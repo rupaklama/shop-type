@@ -1,9 +1,16 @@
-import React from 'react';
+import './homePage.styles.css';
 
-const HomePage = () => {
+import ShopQuality from '../../components/shopQuality/ShopQuality';
+import BestSeller from '../bestSeller/BestSeller';
+import Partners from '../../components/partners/Partners';
+
+const HomePage: React.FC = () => {
   return (
-    <div>
-      <h1>Home Page</h1>
+    <div className='homepage-container'>
+      <div className='cover-image' />
+      <ShopQuality />
+      <BestSeller />
+      <Partners />
     </div>
   );
 };

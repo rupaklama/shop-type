@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './headerNavigation.styles.css';
 import { ROUTE } from '../../constants/route';
 
-const HeaderNavigation = () => {
+const HeaderNavigation: React.FC = () => {
   return (
     <div className='header-nav-container'>
       <div className='nav-items-left'>
